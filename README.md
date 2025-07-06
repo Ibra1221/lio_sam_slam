@@ -3,4 +3,12 @@
 This repository provides the packages gtsam, and lio_sam with tuned parameters in the lio_sam **params.yaml**. It is expected that the repository would be continually maintained during the tuning process to reach the expected parameters for the mars yard simulation
 <hr style="border:2px solid gray">
 
+### Installation & Setup
+
+1. Use this command to clone the repository including its submodules:
+  ```bash
+   git clone --recurse-submodules https://github.com/Ibra1221/lio_sam_slam.git
+   cd lio_sam_slam
+  
+   ```
 
