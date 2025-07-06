@@ -1,0 +1,6 @@
+lio_sam_ws/build/
+lio_sam_ws/install/
+lio_sam_ws/log/
+gtsam_ws/build/
+gtsam_ws/install/
+gtsam_ws/log/

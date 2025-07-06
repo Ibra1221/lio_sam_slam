@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.000617] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000755] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.014701] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.015553] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '/home/ibrahim/lio_sam_ws/src/LIO-SAM', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ibrahim/lio_sam_ws/src/install/lio_sam'], 'cwd': '/home/ibrahim/lio_sam_ws/src/build/lio_sam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ibrahim', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ibrahim', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/ibrahim/lio_sam_ws', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/ibrahim/.nvm/versions/node/v22.16.0/bin', 'NVM_INC': '/home/ibrahim/.nvm/versions/node/v22.16.0/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2014', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2308', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=604ecf230fa3ca9205a78e1b6866ea93', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORM_PLUGIN_PATH': '/home/ibrahim/mindenv/lib/python3.12/site-packages/cv2/qt/plugins', 'NVM_DIR': '/home/ibrahim/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ibrahim', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'JOURNAL_STREAM': '9:18761', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ibrahim', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/opt/ros/jazzy/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/ibrahim/miniconda3/condabin:/home/ibrahim/.nvm/versions/node/v22.16.0/bin:/home/ibrahim/.console-ninja/.bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/ibrahim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ibrahim:@/tmp/.ICE-unix/2308,unix/ibrahim:/tmp/.ICE-unix/2308', 'INVOCATION_ID': '9b301d3576ca452dbe3fc37b9141c064', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TILIX_ID': '506d40a5-4675-4cea-b59e-4dfaf7447f61', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/ibrahim/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ibrahim/lio_sam_ws/src/build/lio_sam', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/ibrahim/miniconda3/bin/conda', 'NVM_CD_FLAGS': '', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=604ecf230fa3ca9205a78e1b6866ea93', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099456] (-) TimerEvent: {}
+[0.106807] (lio_sam) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199582] (-) TimerEvent: {}
+[0.227788] (lio_sam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.259643] (lio_sam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299719] (-) TimerEvent: {}
+[0.400108] (-) TimerEvent: {}
+[0.433207] (lio_sam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.448003] (lio_sam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.448418] (lio_sam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.449050] (lio_sam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.464509] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500258] (-) TimerEvent: {}
+[0.600604] (-) TimerEvent: {}
+[0.646720] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.684855] (lio_sam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.685910] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.687680] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.696338] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.700691] (-) TimerEvent: {}
+[0.801032] (-) TimerEvent: {}
+[0.901393] (-) TimerEvent: {}
+[0.922738] (lio_sam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.001516] (-) TimerEvent: {}
+[1.029640] (lio_sam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.101638] (-) TimerEvent: {}
+[1.128939] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.142089] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.201779] (-) TimerEvent: {}
+[1.247964] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.301928] (-) TimerEvent: {}
+[1.338695] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.346387] (lio_sam) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.402038] (-) TimerEvent: {}
+[1.497937] (lio_sam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.502149] (-) TimerEvent: {}
+[1.506051] (lio_sam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.602278] (-) TimerEvent: {}
+[1.679705] (lio_sam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.702383] (-) TimerEvent: {}
+[1.717427] (lio_sam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.761091] (lio_sam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.802516] (-) TimerEvent: {}
+[1.895258] (lio_sam) StdoutLine: {'line': b'-- Found rclpy: 7.1.4 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.900665] (lio_sam) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[1.902582] (-) TimerEvent: {}
+[2.002835] (-) TimerEvent: {}
+[2.033870] (lio_sam) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.077962] (lio_sam) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[2.105260] (-) TimerEvent: {}
+[2.139665] (lio_sam) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[2.205372] (-) TimerEvent: {}
+[2.305702] (-) TimerEvent: {}
+[2.308062] (lio_sam) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[2.308399] (lio_sam) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[2.308553] (lio_sam) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[2.308692] (lio_sam) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[2.308828] (lio_sam) StderrLine: {'line': b'\n'}
+[2.308973] (lio_sam) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[2.309106] (lio_sam) StderrLine: {'line': b'\n'}
+[2.309264] (lio_sam) StderrLine: {'line': b'    /usr\n'}
+[2.309403] (lio_sam) StderrLine: {'line': b'\n'}
+[2.309535] (lio_sam) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[2.309666] (lio_sam) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[2.309800] (lio_sam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.309934] (lio_sam) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[2.310087] (lio_sam) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[2.310249] (lio_sam) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[2.310400] (lio_sam) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[2.310528] (lio_sam) StderrLine: {'line': b'  /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)\n'}
+[2.310652] (lio_sam) StderrLine: {'line': b'  CMakeLists.txt:20 (find_package)\n'}
+[2.310781] (lio_sam) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.310915] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[2.311120] (lio_sam) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[2.405820] (-) TimerEvent: {}
+[2.506231] (-) TimerEvent: {}
+[2.606623] (-) TimerEvent: {}
+[2.706938] (-) TimerEvent: {}
+[2.807256] (-) TimerEvent: {}
+[2.907582] (-) TimerEvent: {}
+[2.946245] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.946855] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[3.007699] (-) TimerEvent: {}
+[3.108027] (-) TimerEvent: {}
+[3.208393] (-) TimerEvent: {}
+[3.308755] (-) TimerEvent: {}
+[3.409065] (-) TimerEvent: {}
+[3.509418] (-) TimerEvent: {}
+[3.609803] (-) TimerEvent: {}
+[3.710104] (-) TimerEvent: {}
+[3.810495] (-) TimerEvent: {}
+[3.910878] (-) TimerEvent: {}
+[4.011355] (-) TimerEvent: {}
+[4.111665] (-) TimerEvent: {}
+[4.211989] (-) TimerEvent: {}
+[4.312428] (-) TimerEvent: {}
+[4.412849] (-) TimerEvent: {}
+[4.513329] (-) TimerEvent: {}
+[4.613670] (-) TimerEvent: {}
+[4.714088] (-) TimerEvent: {}
+[4.814394] (-) TimerEvent: {}
+[4.914829] (-) TimerEvent: {}
+[5.015145] (-) TimerEvent: {}
+[5.115496] (-) TimerEvent: {}
+[5.215789] (-) TimerEvent: {}
+[5.316078] (-) TimerEvent: {}
+[5.416386] (-) TimerEvent: {}
+[5.438683] (lio_sam) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[5.470466] (lio_sam) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[5.516504] (-) TimerEvent: {}
+[5.541594] (lio_sam) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[5.543013] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[5.616608] (-) TimerEvent: {}
+[5.702489] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[5.707975] (lio_sam) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[5.716702] (-) TimerEvent: {}
+[5.730471] (lio_sam) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[5.759110] (lio_sam) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[5.816843] (-) TimerEvent: {}
+[5.917260] (-) TimerEvent: {}
+[6.017576] (-) TimerEvent: {}
+[6.117913] (-) TimerEvent: {}
+[6.218343] (-) TimerEvent: {}
+[6.318680] (-) TimerEvent: {}
+[6.419036] (-) TimerEvent: {}
+[6.505681] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[6.518629] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[6.519101] (-) TimerEvent: {}
+[6.619370] (-) TimerEvent: {}
+[6.719716] (-) TimerEvent: {}
+[6.820025] (-) TimerEvent: {}
+[6.920347] (-) TimerEvent: {}
+[7.020649] (-) TimerEvent: {}
+[7.121003] (-) TimerEvent: {}
+[7.182389] (lio_sam) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[7.221137] (-) TimerEvent: {}
+[7.321532] (-) TimerEvent: {}
+[7.421854] (-) TimerEvent: {}
+[7.522192] (-) TimerEvent: {}
+[7.622518] (-) TimerEvent: {}
+[7.722913] (-) TimerEvent: {}
+[7.823272] (-) TimerEvent: {}
+[7.886772] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[7.923377] (-) TimerEvent: {}
+[8.023691] (-) TimerEvent: {}
+[8.124018] (-) TimerEvent: {}
+[8.224391] (-) TimerEvent: {}
+[8.324700] (-) TimerEvent: {}
+[8.425022] (-) TimerEvent: {}
+[8.525349] (-) TimerEvent: {}
+[8.560841] (lio_sam) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[8.563030] (lio_sam) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[8.564883] (lio_sam) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[8.566535] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[8.568219] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[8.569807] (lio_sam) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[8.570457] (lio_sam) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[8.571005] (lio_sam) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[8.572694] (lio_sam) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[8.574434] (lio_sam) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[8.576213] (lio_sam) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[8.577812] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[8.579660] (lio_sam) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[8.581427] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[8.583113] (lio_sam) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[8.584873] (lio_sam) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[8.586645] (lio_sam) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[8.588437] (lio_sam) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[8.590312] (lio_sam) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[8.592045] (lio_sam) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[8.593265] (lio_sam) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[8.593821] (lio_sam) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[8.594461] (lio_sam) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[8.596215] (lio_sam) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[8.598048] (lio_sam) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[8.608004] (lio_sam) StdoutLine: {'line': b'-- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[8.619317] (lio_sam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[8.625445] (-) TimerEvent: {}
+[8.643341] (lio_sam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[8.645130] (lio_sam) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[8.645576] (lio_sam) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[8.725585] (-) TimerEvent: {}
+[8.825980] (-) TimerEvent: {}
+[8.856935] (lio_sam) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)\n'}
+[8.867610] (lio_sam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.36.12 (/opt/ros/jazzy/share/tf2_eigen/cmake)\n'}
+[8.877576] (lio_sam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[8.878118] (lio_sam) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:29 (find_package):\n'}
+[8.878401] (lio_sam) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[8.878617] (lio_sam) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[8.878819] (lio_sam) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[8.879020] (lio_sam) StderrLine: {'line': b'\n'}
+[8.879246] (lio_sam) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[8.879471] (lio_sam) StderrLine: {'line': b'\n'}
+[8.879674] (lio_sam) StderrLine: {'line': b'    /usr\n'}
+[8.879874] (lio_sam) StderrLine: {'line': b'\n'}
+[8.880073] (lio_sam) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[8.880304] (lio_sam) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.880520] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[8.926144] (-) TimerEvent: {}
+[8.949436] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex \n'}
+[8.953224] (lio_sam) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include\n'}
+[9.026258] (-) TimerEvent: {}
+[9.121196] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[9.122433] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[9.126350] (-) TimerEvent: {}
+[9.226680] (-) TimerEvent: {}
+[9.326995] (-) TimerEvent: {}
+[9.427305] (-) TimerEvent: {}
+[9.527626] (-) TimerEvent: {}
+[9.627974] (-) TimerEvent: {}
+[9.728260] (-) TimerEvent: {}
+[9.828631] (-) TimerEvent: {}
+[9.929074] (-) TimerEvent: {}
+[10.029405] (-) TimerEvent: {}
+[10.129833] (-) TimerEvent: {}
+[10.230212] (-) TimerEvent: {}
+[10.304637] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[10.330382] (-) TimerEvent: {}
+[10.430966] (-) TimerEvent: {}
+[10.531495] (-) TimerEvent: {}
+[10.631816] (-) TimerEvent: {}
+[10.732126] (-) TimerEvent: {}
+[10.832546] (-) TimerEvent: {}
+[10.932845] (-) TimerEvent: {}
+[11.033156] (-) TimerEvent: {}
+[11.133571] (-) TimerEvent: {}
+[11.233873] (-) TimerEvent: {}
+[11.253869] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.334016] (-) TimerEvent: {}
+[11.434430] (-) TimerEvent: {}
+[11.534719] (-) TimerEvent: {}
+[11.635037] (-) TimerEvent: {}
+[11.735461] (-) TimerEvent: {}
+[11.835757] (-) TimerEvent: {}
+[11.936090] (-) TimerEvent: {}
+[12.036504] (-) TimerEvent: {}
+[12.136787] (-) TimerEvent: {}
+[12.237107] (-) TimerEvent: {}
+[12.337553] (-) TimerEvent: {}
+[12.437994] (-) TimerEvent: {}
+[12.538426] (-) TimerEvent: {}
+[12.638903] (-) TimerEvent: {}
+[12.739965] (-) TimerEvent: {}
+[12.840877] (-) TimerEvent: {}
+[12.941786] (-) TimerEvent: {}
+[13.042682] (-) TimerEvent: {}
+[13.143140] (-) TimerEvent: {}
+[13.243618] (-) TimerEvent: {}
+[13.344478] (-) TimerEvent: {}
+[13.445391] (-) TimerEvent: {}
+[13.546044] (-) TimerEvent: {}
+[13.646822] (-) TimerEvent: {}
+[13.747477] (-) TimerEvent: {}
+[13.847873] (-) TimerEvent: {}
+[13.948231] (-) TimerEvent: {}
+[14.000761] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.042005] (lio_sam) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[14.048365] (-) TimerEvent: {}
+[14.148767] (-) TimerEvent: {}
+[14.249126] (-) TimerEvent: {}
+[14.286557] (lio_sam) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[14.349246] (-) TimerEvent: {}
+[14.449552] (-) TimerEvent: {}
+[14.549852] (-) TimerEvent: {}
+[14.650228] (-) TimerEvent: {}
+[14.750684] (-) TimerEvent: {}
+[14.851115] (-) TimerEvent: {}
+[14.951577] (-) TimerEvent: {}
+[15.052045] (-) TimerEvent: {}
+[15.152575] (-) TimerEvent: {}
+[15.253424] (-) TimerEvent: {}
+[15.353907] (-) TimerEvent: {}
+[15.454800] (-) TimerEvent: {}
+[15.555236] (-) TimerEvent: {}
+[15.655609] (-) TimerEvent: {}
+[15.756007] (-) TimerEvent: {}
+[15.856514] (-) TimerEvent: {}
+[15.956941] (-) TimerEvent: {}
+[16.057254] (-) TimerEvent: {}
+[16.061958] (lio_sam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[16.157359] (-) TimerEvent: {}
+[16.257667] (-) TimerEvent: {}
+[16.345358] (lio_sam) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[16.345649] (lio_sam) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'Eigen' was not found\n"}
+[16.345813] (lio_sam) StderrLine: {'line': b'  before\n'}
+[16.345964] (lio_sam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[16.346113] (lio_sam) StderrLine: {'line': b'  CMakeLists.txt:54 (ament_target_dependencies)\n'}
+[16.346272] (lio_sam) StderrLine: {'line': b'\n'}
+[16.346416] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[16.346649] (lio_sam) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[16.357797] (-) TimerEvent: {}
+[16.386948] (lio_sam) CommandEnded: {'returncode': 1}
+[16.424227] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 1}
+[16.434788] (-) EventReactorShutdown: {}
