@@ -1,0 +1,6 @@
+# LIO-SAM SLAM Mapping
+## Repository to produce a 2D map of the husarion Mars Yard environment using LIO-SAM
+This repository provides the packages gtsam, and lio_sam with tuned parameters in the lio_sam **params.yaml**. It is expected that the repository would be continually maintained during the tuning process to reach the expected parameters for the mars yard simulation
+<hr style="border:2px solid gray">
+
+
