@@ -4,22 +4,14 @@ This repository provides the packages gtsam, and lio_sam with tuned parameters i
 <hr style="border:2px solid gray">
 
 ### Installation & Setup
-1. Create a directory for cloning  the repository
-   ```bash
-   mkdir lio_sam_slam
-   ```  
-2. Use this command to clone the repository including its submodules
+
+1. Use this command to clone the repository and cd into it
   ```bash
-   cd lio_sam_slam
    git clone --recurse-submodules https://github.com/Ibra1221/lio_sam_slam.git
-  
+   cd lio_sam_slam
    ```
-3. Move everything to your home directory
-   ```bash
-   mv gtsam ~/gtsam
-   mv lio_sam_ws ~/lio_sam_ws
-   ```
-4. build and source lio_sam_ws and run it using this command:
+
+2. build and source lio_sam_ws and run it using this command:
    ```bash
    ros2 launch lio_sam run.launch.py
    ```
