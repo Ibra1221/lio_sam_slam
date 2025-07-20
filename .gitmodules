@@ -1,0 +1,6 @@
+[submodule "gtsam"]
+	path = gtsam
+	url = https://github.com/borglab/gtsam.git
+[submodule "liosam"]
+	path = liosam
+	url = https://github.com/TixiaoShan/LIO-SAM.git
