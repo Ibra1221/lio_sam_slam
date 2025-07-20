@@ -1,1 +1,0 @@
-/home/ibrahim/lio_sam_ws/src/build/lio_sam/rosidl_generator_cpp/lio_sam/srv/detail/save_map__struct.hpp

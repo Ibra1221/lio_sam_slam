@@ -1,1 +1,0 @@
-/home/ibrahim/lio_sam_ws/src/LIO-SAM/msg/CloudInfo.msg

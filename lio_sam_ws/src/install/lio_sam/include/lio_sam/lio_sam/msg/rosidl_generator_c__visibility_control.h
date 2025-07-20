@@ -1,1 +1,0 @@
-/home/ibrahim/lio_sam_ws/src/build/lio_sam/rosidl_generator_c/lio_sam/msg/rosidl_generator_c__visibility_control.h
